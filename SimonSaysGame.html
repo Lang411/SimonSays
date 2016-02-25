@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html>
+<html>
+	<head>
+		<title>Simon Says</title>
+		
+		
+		<meta charset="utf-8" />
+		<!-- jQuery library -->
+		<!--<script src="file:///C:/Users/lkenney/Desktop/CODE/Simon%20Says/Assets/Simon-Says-1.0/lib/jquery-1.10.2.js"></script>-->
+		<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
+	
+		<!-- Latest compiled and minified CSS -->
+		<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css" integrity="sha384-1q8mTJOASx8j1Au+a5WDVnPi2lkFfwwEAa8hDDdjZlpLegxhjVME1fgjWPGmkzs7" crossorigin="anonymous">
+
+		<!-- Optional theme -->
+		<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap-theme.min.css" integrity="sha384-fLW2N01lMqjakBkx3l/M9EahuwpSfeNvV63J5ezn3uZzapT0u7EYsXMjQV+0En5r" crossorigin="anonymous">
+
+		<!-- Latest compiled and minified JavaScript -->
+		<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/js/bootstrap.min.js" integrity="sha384-0mSbJDEHialfmuBBQP6A4Qrprq5OVfW37PRR3j5ELqxss1yVqOtnepnHVP9aJ7xS" crossorigin="anonymous"></script>
+		
+		<link rel="stylesheet" type="text/css" href="mystyles.css" media="screen" />
+		<script src="index.js"></script>
+	</head>
+	
+	<body>
+	<div id='theGame'>
+	
+ 	<div id='thePadding'>
+		<h1>SIMON SAYS</h1>
+		<a class='btn btn-success' id='startBtn'>Start</a>
+		<br>
+		<p id='roundCounter'   class='col-md-6'>Round: --</p> 
+		<p id='lives' class='col-md-6'>Lives: 3</p>
+	</div>
+	
+	
+	<svg id="boardButtons" width="792px" height="612px">
+
+		  
+		  <path id='greenButton' class='btn boardButtons' d="M 131.061 291.549 C 131.168 173.152 228.641 75.744 347.061 75.744 C 347.061 75.744 347.061 201.744 347.061 201.744 C 297.738 201.744 257.137 242.299 257.061 291.606 C 257.061 291.606 131.061 291.549 131.061 291.549 " fill="green" fill-rule="evenodd" stroke="none" />
+		  
+		  <path id='redButton' class='btn' d="M 563.061 291.744 C 563.061 291.829 563.061 291.914 563.061 291.999 C 563.061 291.999 437.061 291.868 437.061 291.868 C 437.061 291.826 437.061 291.785 437.061 291.744 C 437.061 242.375 396.43 201.744 347.061 201.744 C 347.061 201.744 347.061 75.744 347.061 75.744 C 465.546 75.744 563.061 173.259 563.061 291.744 " fill="red" fill-rule="evenodd" stroke="none" />
+		  
+		  <path id='yellowButton' class='btn boardButtons'  d="M 347.061 507.744 C 228.576 507.744 131.061 410.229 131.061 291.744 C 131.061 291.679 131.061 291.614 131.061 291.549 C 131.061 291.549 257.061 291.68 257.061 291.68 C 257.061 291.701 257.061 291.723 257.061 291.744 C 257.061 341.113 297.692 381.744 347.061 381.744 C 347.061 381.744 347.061 507.744 347.061 507.744 " fill="yellow" fill-rule="evenodd" stroke="none" />
+		  
+		  <path id='blueButton' class='btn boardButtons' d="M 563.061 291.999 C 562.921 410.368 465.461 507.744 347.061 507.744 C 347.061 507.744 347.061 381.744 347.061 381.744 C 396.388 381.744 436.993 341.18 437.061 291.868 C 437.061 291.868 563.061 291.999 563.061 291.999 " fill="blue" fill-rule="evenodd" stroke="none" />
+		  
+		  <circle cx="347.061px" cy="291.744px" r="216px" fill="none" stroke="#000" stroke-width="4px" stroke-miterlimit="14.336" />
+		  
+		  <line x1="347.061px" y1="384px" x2="347.061px" y2="508.512px" fill="none" stroke="#000" stroke-width="4px" stroke-miterlimit="14.336" />
+		  <line x1="347.061px" y1="74.976px" x2="347.061px" y2="201px" fill="none" stroke="#000" stroke-width="4px" stroke-miterlimit="14.336" />
+		  <line x1="436.999px" y1="291.868px" x2="564px" y2="292px" fill="none" stroke="#000" stroke-width="4px" stroke-miterlimit="14.336" />
+		  <line x1="134.061px" y1="289.549px" x2="258px" y2="289.549px" fill="none" stroke="#000" stroke-width="4px" stroke-miterlimit="14.336" />
+		  
+		  <circle id='centerArea' class='btn' cx="347.061px" cy="291.744px" r="90px" fill="white" stroke="#000" stroke-width="4px" stroke-miterlimit="14.336" value='Reset' />
+	</svg>
+	
+	<h2>STOP</h2>
+	</div>
+	<!--<div id='centerControls'>
+		<svg height="100" width="100">
+			<circle cx="50" cy="50" r="40" stroke="black" stroke-width="3" fill="red" />
+		</svg> 
+	</div> -->
+	 
+	</body>
+	<!-- 	<div id='buttonDiv'>
+		<svg  width="150" height="150">
+		  <rect id='greenButton' class='btn' width="150" height="150" style="fill:green;stroke-width:3;stroke:rgb(0,0,0)" />
+		</svg>
+		<svg  width="150" height="150">
+		  <rect id='redButton' class='btn' width="150" height="150" style="fill:red;stroke-width:3;stroke:rgb(0,0,0)" />  
+		</svg>
+		<br>
+		<svg  width="150" height="150">
+		  <rect id='yellowButton' class='btn' width="150" height="150" style="fill:yellow;stroke-width:3;stroke:rgb(0,0,0)" />  
+		</svg>
+		<svg  width="150" height="150">
+		  <rect id='blueButton' class='btn' width="150" height="150" style="fill:blue;stroke-width:3;stroke:rgb(0,0,0)" />
+		</svg>
+
+<!-- 		<svg  id='greenButton' >
+			//<polygon class='btn' points="20,100 260,190 160,210 130,250" style="fill:green ;stroke:black;stroke-width:5" />
+			
+			//<rect x="0px" y="0px" width="612px" height="792px" fill="#FFFFFF" stroke="none" />
+			
+			<path d="M 161.341 540.347 C 161.341 382.177 291.957 252 450.608 252 " fill="none" stroke="black" stroke-width="4px" />	
+			<line x1="450.659px" y1="252px" x2="450.659px" y2="396.823px" fill="none" stroke="black" stroke-width="4px" />
+			<line x1="161.091px" y1="540px" x2="305.006px" y2="540px" fill="none" stroke="black" stroke-width="4px" />
+			<path d="M 306.659 540 C 306.659 461.01 371.669 396 450.608 396 " fill="none" stroke="black" stroke-width="4px" />
+			
+		</svg> 
+			
+		<svg class='btn' id='redButton'>
+			<polygon points="120,100 560,190 860,190 230,550" style="fill:red;stroke:black;stroke-width:5" />
+		</svg>
+				
+		<svg class='btn' id='yellowButton'>
+			<polygon points="120,100 560,390 560,710 830,350" style="fill:yellow;stroke:black;stroke-width:5" />
+		</svg>
+
+		<svg class='btn' id='blueButton'>
+			<polygon points="340,780 260,670 890,210 340,250" style="fill:blue;stroke:black;stroke-width:5" />
+		</svg>
+		
+	</div>
+-->
+	
+</html>
+
