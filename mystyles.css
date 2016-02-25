@@ -1,7 +1,73 @@
-body {
-	background-image: url('file:///C:/Users/lkenney/Desktop/CODE/Local%20Weather/03994_bixbybridgehazydusk_1600x900.jpg');
+body{
+	text-align:left;
+}
 
-}
 h1 {
-	color:blue;
+	margin:0px;
+	font-size:400%;
+	color:white;
 }
+
+p{
+	color:white;
+	font-size:250%;
+	
+}
+
+#theGame {
+	height:800px;
+	width:732px;
+	border-style: solid;
+	border-color: red;
+    border-width: 20px;
+}
+
+#buttonDiv {
+	background-color:white;
+	//text-align:center;
+	width:325px;
+	height:325px;
+    border-style: solid;
+	border-color: grey;
+    border-width: 10px;
+}
+
+#boardButtons {
+	text-align:center;
+	height:150%;
+	width:150%;
+}
+
+#pressedButtons {
+	
+}
+
+#thePadding {
+	//margin-top:0px;
+	height:160px;
+	width:692px;
+	text-align:center;
+	background-color:red;
+	color:white;
+}
+
+#startBtn {
+	width:500px;
+	font-size:25px;
+	//color:white;
+	//background-color:white;
+}
+
+h2 {
+	color:red;
+    position: absolute;
+    left: 325px;
+    top: 445px;
+} 
+
+/*
+.squares {
+	width:400px;
+	height:400px;
+}
+*/
