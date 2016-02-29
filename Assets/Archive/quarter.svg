@@ -1,0 +1,15 @@
+<?xml version="1.0" standalone="no"?>
+<!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 20010904//EN"
+   "http://www.w3.org/TR/2001/REC-SVG-20010904/DTD/svg10.dtd">
+
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+   <g id="cvpage1_top" width="612px" height="792px" transform="translate(0,0)">
+      <rect x="0px" y="0px" width="612px" height="792px" fill="#FFFFFF" stroke="none" />
+      <path d="M 161 540.5 C 161 382.521 291.946 252.5 451 252.5 " fill="none" stroke="#000" stroke-width="4px" stroke-miterlimit="14.336" />
+      <line x1="450.659px" y1="252px" x2="450.659px" y2="396.75px" fill="none" stroke="#000" stroke-width="4px" stroke-miterlimit="14.336" />
+      <line x1="159.75px" y1="540px" x2="309px" y2="540px" fill="none" stroke="#000" stroke-width="4px" stroke-miterlimit="14.336" />
+      <path d="M 306.75 541.75 C 306.75 461.115 372.347 394.75 452 394.75 " fill="none" stroke="#000" stroke-width="4px" stroke-miterlimit="14.336" />
+      <path d="M 60.5 241 C 60.5 162.01 125.51 97 204.5 97 C 204.5 97 204.5 241 204.5 241 C 204.5 241 60.5 241 60.5 241 " fill="#38FF38" fill-rule="evenodd" stroke="none" />
+      <path d="M 60.5 241 C 60.5 162.01 125.51 97 204.5 97 " fill="none" stroke="#000" stroke-width="4px" stroke-miterlimit="14.336" />
+   </g>
+</svg>

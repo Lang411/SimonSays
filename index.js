@@ -18,16 +18,16 @@ $(document).ready(function(){
 		var yellowChange = 'rgb(164,131,0)';
 		var blueChange = 'rgb(0,0,136)';
 		if (b===1){
-			buttonChange("#greenButton",'green',greenChange,'file:///C:/Users/lkenney/Desktop/CODE/Simon%20Says/Assets/sounds/mp3/sounds_01.mp3');
+			buttonChange("#greenButton",'green',greenChange,'file:///C:/Users/lkenney/Desktop/CODE/Simon%20Says/Assets/sounds/sounds_01.mp3');
 		}
 		else if (b===2){
-			buttonChange("#redButton",'red',redChange,'file:///C:/Users/lkenney/Desktop/CODE/Simon%20Says/Assets/sounds/mp3/sounds_02.mp3');
+			buttonChange("#redButton",'red',redChange,'file:///C:/Users/lkenney/Desktop/CODE/Simon%20Says/Assets/sounds/sounds_02.mp3');
 		}
 		else if (b===3){
-			buttonChange("#yellowButton",'yellow',yellowChange,'file:///C:/Users/lkenney/Desktop/CODE/Simon%20Says/Assets/sounds/mp3/sounds_03.mp3');
+			buttonChange("#yellowButton",'yellow',yellowChange,'file:///C:/Users/lkenney/Desktop/CODE/Simon%20Says/Assets/sounds/sounds_03.mp3');
 		}
 		else if (b===4){
-			buttonChange("#blueButton",'blue',blueChange,'file:///C:/Users/lkenney/Desktop/CODE/Simon%20Says/Assets/sounds/mp3/sounds_04.mp3');
+			buttonChange("#blueButton",'blue',blueChange,'file:///C:/Users/lkenney/Desktop/CODE/Simon%20Says/Assets/sounds/sounds_04.mp3');
 		}
 	}
 			
@@ -117,7 +117,7 @@ $("#startBtn").click(function startfunction(){
 				turn++
 				playerSequence = [];
 				setTimeout(function myFunction(){
-				var sound = 'file:///C:/Users/lkenney/Desktop/CODE/Simon%20Says/Assets/sounds/mp3/Correct-answer.mp3';
+				var sound = 'file:///C:/Users/lkenney/Desktop/CODE/Simon%20Says/Assets/sounds/Correct-answer.mp3';
 				var audio = new Audio(sound);
 				audio.play();
 				}, 550);
@@ -131,7 +131,7 @@ $("#startBtn").click(function startfunction(){
 			}
 			else {
 				console.log('You lost!')
-				var sound = 'file:///C:/Users/lkenney/Desktop/CODE/Simon%20Says/Assets/sounds/mp3/Woop%20Woop-SoundBible.com-198943467.mp3';
+				var sound = 'file:///C:/Users/lkenney/Desktop/CODE/Simon%20Says/Assets/sounds/Woop%20Woop-SoundBible.com-198943467.mp3';
 				var audio = new Audio(sound);
 				audio.play();
 				playerSequence = [];
@@ -143,7 +143,7 @@ $("#startBtn").click(function startfunction(){
 					roundCounter.innerHTML = 'GAME OVER';
 					lives.innerHTML = 'PLAYER 1';
 					setTimeout(function myFunction(){
-						var sound = 'file:///C:/Users/lkenney/Desktop/CODE/Simon%20Says/Assets/sounds/mp3/Sad_Trombone-Joe_Lamb-665429450.mp3';
+						var sound = 'file:///C:/Users/lkenney/Desktop/CODE/Simon%20Says/Assets/sounds/Sad_Trombone-Joe_Lamb-665429450.mp3';
 						var audio = new Audio(sound);
 						audio.play();
 						simonSequence = [];
@@ -174,7 +174,7 @@ $("#startBtn").click(function startfunction(){
 	
 	$("#greenButton").bind("click", function(){
 		console.log('You clicked the green button = 1');
-		buttonChange("#greenButton",'green',greenChange,'file:///C:/Users/lkenney/Desktop/CODE/Simon%20Says/Assets/sounds/mp3/sounds_01.mp3');
+		buttonChange("#greenButton",'green',greenChange,'file:///C:/Users/lkenney/Desktop/CODE/Simon%20Says/Assets/sounds/sounds_01.mp3');
 		boardButton = 1;
 		play(boardButton);
 	});
@@ -182,7 +182,7 @@ $("#startBtn").click(function startfunction(){
 	$('#redButton').bind("click", function(){
 		console.log('You clicked the red button = 2');
 
-		buttonChange("#redButton",'red',redChange,'file:///C:/Users/lkenney/Desktop/CODE/Simon%20Says/Assets/sounds/mp3/sounds_02.mp3');
+		buttonChange("#redButton",'red',redChange,'file:///C:/Users/lkenney/Desktop/CODE/Simon%20Says/Assets/sounds/sounds_02.mp3');
 		boardButton = 2;
 		play(boardButton);
 	});
@@ -190,7 +190,7 @@ $("#startBtn").click(function startfunction(){
 	$('#yellowButton').bind("click", function(){
 		console.log('You clicked the yellow button = 3');
 		
-		buttonChange("#yellowButton",'yellow',yellowChange,'file:///C:/Users/lkenney/Desktop/CODE/Simon%20Says/Assets/sounds/mp3/sounds_03.mp3');
+		buttonChange("#yellowButton",'yellow',yellowChange,'file:///C:/Users/lkenney/Desktop/CODE/Simon%20Says/Assets/sounds/sounds_03.mp3');
 		boardButton = 3;
 		play(boardButton);
 	});
@@ -198,7 +198,7 @@ $("#startBtn").click(function startfunction(){
 	$('#blueButton').click(function (){
 		console.log('You clicked the blue button = 4');
 		
-		buttonChange("#blueButton",'blue',blueChange,'file:///C:/Users/lkenney/Desktop/CODE/Simon%20Says/Assets/sounds/mp3/sounds_04.mp3');
+		buttonChange("#blueButton",'blue',blueChange,'file:///C:/Users/lkenney/Desktop/CODE/Simon%20Says/Assets/sounds/sounds_04.mp3');
 		boardButton = 4;
 		play(boardButton);
 		

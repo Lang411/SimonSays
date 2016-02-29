@@ -1,0 +1,21 @@
+<?xml version="1.0" standalone="no"?>
+<!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 20010904//EN"
+   "http://www.w3.org/TR/2001/REC-SVG-20010904/DTD/svg10.dtd">
+
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+   <g id="cvpage1_top" width="612px" height="792px" transform="translate(0,0)">
+      <rect x="0px" y="0px" width="612px" height="792px" fill="#FFFFFF" stroke="none" />
+      <image x="337px" y="13px" width="128px" height="128px" xlink:href="./oo4n58wu.gif"></image>
+      <image x="465px" y="13px" width="122px" height="128px" xlink:href="./oo4n58wx.gif"></image>
+      <image x="337px" y="141px" width="128px" height="128px" xlink:href="./oo4n58wu.gif"></image>
+      <image x="465px" y="141px" width="122px" height="128px" xlink:href="./oo4n58wx.gif"></image>
+      <image x="337px" y="269px" width="128px" height="44px" xlink:href="./oo4n58w2.gif"></image>
+      <image x="465px" y="269px" width="122px" height="44px" xlink:href="./oo4n58w4.gif"></image>
+      <path d="M 510.24 311.24 C 510.24 429.724 412.724 527.24 294.24 527.24 C 175.755 527.24 78.24 429.724 78.24 311.24 C 78.24 192.755 175.755 95.24 294.24 95.24 C 412.724 95.24 510.24 192.755 510.24 311.24 Z" fill="none" stroke="#000" stroke-width="4px" stroke-miterlimit="14.336" />
+      <path d="M 294.24 419.24 C 353.482 419.24 402.24 370.482 402.24 311.24 C 402.24 251.998 353.482 203.24 294.24 203.24 C 234.998 203.24 186.24 251.998 186.24 311.24 C 186.24 370.482 234.998 419.24 294.24 419.24 Z" fill="none" stroke="#000" stroke-width="4px" stroke-miterlimit="14.336" />
+      <polygon points="78.24,311.24 185.24,311.24 78.24,311.24 " fill="none" stroke="#000" stroke-width="4px" stroke-miterlimit="14.336" />
+      <polygon points="402.24,311.24 508.24,311.24 402.24,311.24 " fill="none" stroke="#000" stroke-width="4px" stroke-miterlimit="14.336" />
+      <polygon points="293.23,94.74 293.235,203.24 293.23,94.74 " fill="none" stroke="#000" stroke-width="4px" stroke-miterlimit="14.336" />
+      <polygon points="293.245,419.24 293.25,527.74 293.245,419.24 " fill="none" stroke="#000" stroke-width="4px" stroke-miterlimit="14.336" />
+   </g>
+</svg>

@@ -1,0 +1,19 @@
+<?xml version="1.0" standalone="no"?>
+<!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 20010904//EN"
+   "http://www.w3.org/TR/2001/REC-SVG-20010904/DTD/svg10.dtd">
+
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+   <g id="cvpage1_top" width="792px" height="612px" transform="translate(0,0)">
+      <rect x="0px" y="0px" width="792px" height="612px" fill="#FFFFFF" stroke="none" />
+      <path d="M 563.061 291.999 C 562.921 410.368 465.461 507.744 347.061 507.744 C 347.061 507.744 347.061 381.744 347.061 381.744 C 396.388 381.744 436.993 341.18 437.061 291.868 C 437.061 291.868 563.061 291.999 563.061 291.999 " fill="#00F" fill-rule="evenodd" stroke="none" />
+      <path d="M 347.061 507.744 C 228.576 507.744 131.061 410.229 131.061 291.744 C 131.061 291.679 131.061 291.614 131.061 291.549 C 131.061 291.549 257.061 291.68 257.061 291.68 C 257.061 291.701 257.061 291.723 257.061 291.744 C 257.061 341.113 297.692 381.744 347.061 381.744 C 347.061 381.744 347.061 507.744 347.061 507.744 " fill="#E3E300" fill-rule="evenodd" stroke="none" />
+      <path d="M 563.061 291.744 C 563.061 291.829 563.061 291.914 563.061 291.999 C 563.061 291.999 437.061 291.868 437.061 291.868 C 437.061 291.826 437.061 291.785 437.061 291.744 C 437.061 242.375 396.43 201.744 347.061 201.744 C 347.061 201.744 347.061 75.744 347.061 75.744 C 465.546 75.744 563.061 173.259 563.061 291.744 " fill="#F00" fill-rule="evenodd" stroke="none" />
+      <path d="M 131.061 291.549 C 131.168 173.152 228.641 75.744 347.061 75.744 C 347.061 75.744 347.061 201.744 347.061 201.744 C 297.738 201.744 257.137 242.299 257.061 291.606 C 257.061 291.606 131.061 291.549 131.061 291.549 " fill="#00E300" fill-rule="evenodd" stroke="none" />
+      <circle cx="347.061px" cy="291.744px" r="216px" fill="none" stroke="#000" stroke-width="4px" stroke-miterlimit="14.336" />
+      <line x1="347.061px" y1="384px" x2="347.061px" y2="508.512px" fill="none" stroke="#000" stroke-width="4px" stroke-miterlimit="14.336" />
+      <line x1="347.061px" y1="74.976px" x2="347.061px" y2="201px" fill="none" stroke="#000" stroke-width="4px" stroke-miterlimit="14.336" />
+      <line x1="436.999px" y1="291.868px" x2="564px" y2="292px" fill="none" stroke="#000" stroke-width="4px" stroke-miterlimit="14.336" />
+      <line x1="134.061px" y1="289.549px" x2="258px" y2="289.549px" fill="none" stroke="#000" stroke-width="4px" stroke-miterlimit="14.336" />
+      <circle cx="347.061px" cy="291.744px" r="90px" fill="none" stroke="#000" stroke-width="4px" stroke-miterlimit="14.336" />
+   </g>
+</svg>
